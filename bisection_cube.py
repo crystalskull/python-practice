@@ -3,7 +3,6 @@
 Program to find cube root of a number using bisection
 search method.
 '''
-
 if __name__ == '__main__':
   num = int(input("Enter a number:"))
   epsilon = 0.00001
