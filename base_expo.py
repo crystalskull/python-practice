@@ -4,7 +4,6 @@ Program to check if a given number can be represented in
 base ** exponent form.
 Condition: 0 < exponent < 6
 '''
-
 if __name__ == '__main__':
   MAX_EXPO = 6
   num = int(input("Enter a number: "))
