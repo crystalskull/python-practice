@@ -3,7 +3,6 @@
 Program to find square root of a number using bisection
 search method.
 '''
-
 if __name__ == '__main__':
   num = int(input("Enter a positive number:"))
   if num > 0:
