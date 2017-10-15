@@ -3,7 +3,6 @@
 Program to find square root of a number
 using Newton-Raphson method.
 '''
-
 if __name__ == '__main__':
   num = int(input("Enter a positive value:"))
   if num > 0:
