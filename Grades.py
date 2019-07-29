@@ -1,4 +1,4 @@
-from Student import Student
+import MITPerson
 
 class Grades(object):
 	def __init__(self):
