@@ -13,9 +13,25 @@ class MITPerson(Person):
 	def getIdNum(self):
 		return self.idNum
 
+	def isStudent(self):
+		return isinstance(self, Student)
+
 	#override lt
 	def __lt__(self, other):
 		return self.idNum < other.idNum
+
+class Student(MITPerson):
+    pass
+
+class UG(Student):
+    def __init__(self, name, classYear):
+        super().__init__(name)
+        self.year = classYear
+    def getYear(self):
+        return self.year
+
+class Grad(Student):
+    pass
 
 if __name__ == '__main__':
 	p1 = MITPerson('Huey Duck')
